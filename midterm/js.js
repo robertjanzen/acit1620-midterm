@@ -61,12 +61,14 @@ function createStory() {
     
     ntitle.id = "title"+currentDiv;
     ntitle.style.cssText = titleCSS;
+    ntitle.className = "title";
     ntitle.innerHTML = document.getElementById("title").innerHTML;
     ntitle.color = document.getElementById("title").color;
     ntitle.borderColor = document.getElementById("title").borderColor;
     
     ndesc.id = "desc"+currentDiv;
-    ndesc.style.cssText = descCSS; 
+    ndesc.style.cssText = descCSS;
+    ndesc.className = "desc";
     ndesc.innerHTML = document.getElementById("descripiton").innerHTML;
     ndesc.color = document.getElementById("title").color;
     ndesc.borderColor = document.getElementById("title").borderColor;
