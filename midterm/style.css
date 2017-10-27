@@ -13,7 +13,7 @@
     background-position: 0px 0px;
 }
 
-#title {
+#title, .title {
     position:absolute;
     font-weight:bold;
     color:FloralWhite;
@@ -24,7 +24,7 @@
     width:200px;
 }
 
-#descripiton {
+#descripiton, .desc {
     position:absolute;
     color:FloralWhite;
     font-size:1.8em;
