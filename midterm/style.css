@@ -1,0 +1,58 @@
+#display {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100vw;
+}
+
+#background{
+    position:relative;
+    width:100%;
+    height:300px;
+    background-image:url("img/bg1.jpg");
+    background-position: 0px 0px;
+}
+
+#title {
+    position:absolute;
+    font-weight:bold;
+    color:FloralWhite;
+    font-size:2em;
+    border-bottom: 1px solid FloralWhite;
+    left:10%;
+    top:10%;
+    width:200px;
+}
+
+#descripiton {
+    position:absolute;
+    color:FloralWhite;
+    font-size:1.8em;
+    left:10%;
+    margin-top:12px;
+    top:20%;  
+}
+
+.textInput {
+    width:100%;
+}
+
+#controls {
+    position:fixed;
+    bottom:-170px;
+    left:0px;
+    right:0px;
+    width:100px;
+    height:200px;
+    margin:auto;
+    transition:0.5s;
+    z-index:10000;
+}
+
+.story {
+    position:relative;
+    display:inline-block;
+    height:300px;
+    width:500px;
+    background-image:url();
+}
